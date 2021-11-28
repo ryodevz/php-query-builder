@@ -1,0 +1,20 @@
+{
+    "name": "ryodevz/php-query-builder",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ryodevz\\PhpQueryBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RyoDevz",
+            "email": "ytryo789@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "envms/fluentpdo": "dev-master"
+    }
+}
