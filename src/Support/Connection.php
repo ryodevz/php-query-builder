@@ -33,7 +33,7 @@ class Connection
 
     protected function setConfig()
     {
-        $config = require_once $this->path;
+        $config = require $this->path;
 
         $this->host = $config['host'];
         $this->username = $config['username'];
